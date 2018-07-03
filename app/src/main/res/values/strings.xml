@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">豆豆豆豆</string>
+
+    <string name="drawColor">drawColor()</string>
+    <string name="drawArc">drawArc()</string>
+    <string name="drawCircle">drawCircle()</string>
+    <string name="drawHistorgram">drawHistogram()</string>
+    <string name="drawLine">drawLine()</string>
+    <string name="drawOval">drawOval()</string>
+    <string name="drawPieChat">drawPieChart()</string>
+    <string name="drawPoint">drawPoint()</string>
+    <string name="drawRect">drawRect()</string>
+    <stirng name="drawPath">drawPath()</stirng>
+    <stirng name="drawRoundRect">drawRoundRect()</stirng>
+</resources>
