@@ -2,6 +2,7 @@ package htfy.com.klineproject.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.os.Build;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
@@ -29,5 +30,8 @@ public class LineView extends View {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
+        Paint p = new Paint(Paint.ANTI_ALIAS_FLAG);
+        p.setStrokeWidth(10);
+        canvas.drawLine(100,100,300,300,p);
     }
 }

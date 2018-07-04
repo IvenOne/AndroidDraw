@@ -2,6 +2,7 @@ package htfy.com.klineproject.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Paint;
 import android.os.Build;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
@@ -26,8 +27,10 @@ public class RoundRectView extends View {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onDraw(Canvas canvas) {
+        canvas.drawRoundRect(100,100,400,300,30f,30f,new Paint());
         super.onDraw(canvas);
     }
 }

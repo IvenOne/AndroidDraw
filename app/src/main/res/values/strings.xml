@@ -10,6 +10,6 @@
     <string name="drawPieChat">drawPieChart()</string>
     <string name="drawPoint">drawPoint()</string>
     <string name="drawRect">drawRect()</string>
-    <stirng name="drawPath">drawPath()</stirng>
-    <stirng name="drawRoundRect">drawRoundRect()</stirng>
+    <string name="drawPath">drawPath()</string>
+    <string name="drawRoundRect">drawRoundRect()</string>
 </resources>

@@ -2,6 +2,8 @@ package htfy.com.klineproject.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Rect;
 import android.os.Build;
 import android.support.annotation.Nullable;
 import android.support.annotation.RequiresApi;
@@ -28,6 +30,7 @@ public class RectView extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
+        canvas.drawRect(new Rect(100,100,400,300),new Paint());
         super.onDraw(canvas);
     }
 }
